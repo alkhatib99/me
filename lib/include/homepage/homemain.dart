@@ -19,7 +19,7 @@ import 'package:DeveloperFolio/pages/welcome.dart';
 import 'package:flutter/material.dart';
 
 class HomeDesktop extends StatefulWidget {
-  const HomeDesktop({Key key}) : super(key: key);
+  // const HomeDesktop({Key key}) : super(key: key);
 
   @override
   _HomeDesktopState createState() => _HomeDesktopState();

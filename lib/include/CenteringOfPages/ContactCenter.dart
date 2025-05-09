@@ -3,7 +3,7 @@ import 'package:DeveloperFolio/include/Rows/contactpagemain.dart';
 import 'package:flutter/material.dart';
 
 class ContactCenterDesk extends StatelessWidget {
-  const ContactCenterDesk({Key key}) : super(key: key);
+  // const ContactCenterDesk({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -17,7 +17,7 @@ class ContactCenterDesk extends StatelessWidget {
 }
 
 class ContactCenterMob extends StatelessWidget {
-  const ContactCenterMob({Key key}) : super(key: key);
+  // const ContactCenterMob({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(
@@ -33,7 +33,7 @@ class ContactCenterMob extends StatelessWidget {
 }
 
 class ContactCenterTab extends StatelessWidget {
-  const ContactCenterTab({Key key}) : super(key: key);
+  // const ContactCenterTab({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(

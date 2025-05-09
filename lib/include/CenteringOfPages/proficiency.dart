@@ -3,7 +3,7 @@ import 'package:DeveloperFolio/include/imagesmain/images.dart';
 import 'package:flutter/material.dart';
 
 class ProgressBarDesk extends StatelessWidget {
-  const ProgressBarDesk({Key key}) : super(key: key);
+  // const ProgressBarDesk({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -18,7 +18,7 @@ class ProgressBarDesk extends StatelessWidget {
 }
 
 class ProgressBarTab extends StatelessWidget {
-  const ProgressBarTab({Key key}) : super(key: key);
+  // const ProgressBarTab({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return  SingleChildScrollView(
@@ -35,7 +35,7 @@ class ProgressBarTab extends StatelessWidget {
 }
 
 class ProgressBarMob extends StatelessWidget {
-  const ProgressBarMob({Key key}) : super(key: key);
+  // const ProgressBarMob({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return  SingleChildScrollView(

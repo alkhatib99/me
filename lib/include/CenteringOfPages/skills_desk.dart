@@ -3,7 +3,7 @@ import 'package:DeveloperFolio/include/imagesmain/images.dart';
 import 'package:flutter/material.dart';
 
 class SkillsDesk extends StatelessWidget {
-  const SkillsDesk({Key key}) : super(key: key);
+  // const SkillsDesk({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -18,7 +18,7 @@ class SkillsDesk extends StatelessWidget {
 }
 
 class SkillsMob extends StatelessWidget {
-  const SkillsMob({Key key}) : super(key: key);
+  // const SkillsMob({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(
@@ -35,7 +35,7 @@ class SkillsMob extends StatelessWidget {
 }
 
 class SkillsTab extends StatelessWidget {
-  const SkillsTab({Key key}) : super(key: key);
+  // const SkillsTab({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(

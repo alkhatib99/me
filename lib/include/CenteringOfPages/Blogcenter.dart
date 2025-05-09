@@ -3,7 +3,7 @@ import 'package:DeveloperFolio/include/Rows/blogcardmain.dart';
 import 'package:flutter/material.dart';
 
 class BlogCenterDesk extends StatelessWidget {
-  const BlogCenterDesk({Key key}) : super(key: key);
+  // const BlogCenterDesk({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -17,7 +17,7 @@ class BlogCenterDesk extends StatelessWidget {
 }
 
 class BlogCenterMob extends StatelessWidget {
-  const BlogCenterMob({Key key}) : super(key: key);
+  // const BlogCenterMob({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(
@@ -34,7 +34,7 @@ class BlogCenterMob extends StatelessWidget {
 }
 
 class BlogCenterTab extends StatelessWidget {
-  const BlogCenterTab({Key key}) : super(key: key);
+  // const BlogCenterTab({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(

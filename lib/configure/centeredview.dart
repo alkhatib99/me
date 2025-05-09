@@ -1,22 +1,22 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class CenteredView extends StatelessWidget {
-  const CenteredView({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
-      desktop: CenteredViewDesk(),
-      tablet: CenteredViewTab(),
-      mobile: CenteredViewMob(),
+      desktop: CenteredViewDesk(child: Container()),
+      tablet: CenteredViewTab(child: Container()),
+      mobile: CenteredViewMob(child: Container()),
     );
   }
 }
 
 class CenteredViewDesk extends StatelessWidget {
   final Widget child;
-  const CenteredViewDesk({Key key, this.child}) : super(key: key);
+  const CenteredViewDesk({Key? key, required this.child}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +32,7 @@ class CenteredViewDesk extends StatelessWidget {
 
 class CenteredViewMob extends StatelessWidget {
   final Widget child;
-  const CenteredViewMob({Key key, this.child}) : super(key: key);
+  const CenteredViewMob({Key? key, required this.child}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +48,7 @@ class CenteredViewMob extends StatelessWidget {
 
 class CenteredViewTab extends StatelessWidget {
   final Widget child;
-  const CenteredViewTab({Key key, this.child}) : super(key: key);
+  const CenteredViewTab({Key? key, required this.child}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

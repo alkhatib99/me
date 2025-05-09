@@ -3,7 +3,7 @@ import 'package:DeveloperFolio/include/Rows/educationmain.dart';
 import 'package:flutter/material.dart';
 
 class EducationDesk extends StatelessWidget {
-  const EducationDesk({Key key}) : super(key: key);
+  // const EducationDesk({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -17,7 +17,7 @@ class EducationDesk extends StatelessWidget {
 }
 
 class EducationMob extends StatelessWidget {
-  const EducationMob({Key key}) : super(key: key);
+  // const EducationMob({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(
@@ -34,7 +34,7 @@ class EducationMob extends StatelessWidget {
 }
 
 class EducationTab extends StatelessWidget {
-  const EducationTab({Key key}) : super(key: key);
+  // const EducationTab({Key key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
    return SingleChildScrollView(
